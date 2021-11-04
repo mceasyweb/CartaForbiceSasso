@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="game gioco carta sasso forbice">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="author" content="mceasyweb">
+  <meta name="description" content="carta forbice sasso gioco javascript">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/normalized.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+  <title>Carta Forbice Sasso</title>
+</head>
+<body>
+  <main>
+    <!-- PUNTEGGIO -->
+    <div class="score-container">
+      <h3><span>Your score:</span> <span id="score-player">0</span></h3>
+      <h3><span>Cpu score:&nbsp;</span> <span id="score-pc">0</span></h3>
+    </div>
+
+
+    <!-- CONTAINER DEL GIOCO -->
+    <div class="game-container">
+      <h1>What you choose?</h1>
+
+      <i class="fas fa-paper-plane user-choice" data-name="paper-plane"></i>
+      <i class="fas fa-cut user-choice" data-name="cut"></i>
+      <i class="fas fa-hand-rock user-choice" data-name="hand-rock"></i>
+
+      <div id="computer-choice">
+
+      </div>
+      <div>
+        <h1 id="result"></h1>
+      </div>
+    </div>
+  </main>
+  <footer class="main">
+    <div class="social">
+      <a href="https://github.com/mceasyweb" target="_blank" title="mceasyweb.github"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/mceasyweb/CartaForbiceSasso" target="_blank" title="source"><i class="fas fa-code"></i></i></a>
+
+    </div>
+    <p>
+      Copyrigth ©2021
+    </p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
