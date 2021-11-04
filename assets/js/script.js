@@ -49,7 +49,6 @@ function user_pick() {
 
   const result = qs('#result');
   const winner = checkWhoWon(this.dataset.name, cpu_pick());
-  console.log(winner);
   switch (winner) {
     case 0:
       cpuScoreHtml.innerText = ++cpuScore;
